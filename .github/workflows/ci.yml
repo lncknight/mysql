@@ -3,6 +3,7 @@ name: GitHub CI
 on:
   pull_request:
   push:
+    - master
   schedule:
     - cron: 0 0 * * 0
 
